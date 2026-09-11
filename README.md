@@ -102,8 +102,6 @@ The ranking changes somewhat in the final test period. That is exactly why the p
 
 The target is **annualized realized volatility over the following 20 trading days**.
 
-Plain-English formula:
-
 `Future 20D volatility = sqrt(252 × average of the next 20 squared daily log returns)`
 
 Squaring returns removes direction, so large positive and negative market moves both increase realized volatility. A value of `0.20` represents approximately **20% annualized volatility**.
